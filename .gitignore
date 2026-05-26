@@ -7,11 +7,15 @@
 .web
 .orion
 
+# Docker startup
+start.sh
+
 # Claude / AI assistant artifacts
 docs/superpowers/
 docs/plans/
 
 # webui (monorepo frontend)
+webui/package-lock.json
 webui/node_modules/
 webui/dist/
 webui/coverage/
